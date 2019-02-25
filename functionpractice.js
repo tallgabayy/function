@@ -44,6 +44,28 @@ flip (n,n2)
 
 
 
+//"return" שימוש ב
+
+function flip (a)
+{
+var f = (a= (-a))
+
+return (f)
+
+
+
+}
+
+var n = prompt ("number")
+var n2 = prompt ("another one")
+
+alert ("your 1st new number is")
+console.log (flip (n))
+
+alert ("your 2nd new number is")
+console.log (flip (n2))
+
+
 
 
 
